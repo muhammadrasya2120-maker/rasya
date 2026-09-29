@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Azriel - Network Engineer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<canvas id="snow"></canvas>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="#" class="logo">&lt;/&gt; nurikhsan</a>
+
+        <div class="nav-right">
+            <ul class="menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#seminar">Seminar</a></li>
+                <li><a href="#certificate">Certificate</a></li>
+            </ul>
+
+            <div id="google_translate_element"></div>
+
+            <i class="fas fa-globe translate-icon" onclick="toggleTranslate()"></i>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="section hero">
+    <div class="container">
+        <img src="img/pasfoto.jpeg" class="profile-img">
+        <h1>Muhammad Nurikhsan</h1>
+        <p>Network Operation Center</p>
+
+        <div class="btn-group">
+    <a href="https://drive.google.com/file/d/1bqYNGPSZqKt9v1b66A-_-1cEAeFUikHB/view?usp=sharing" 
+       class="btn btn-primary" 
+       target="_blank">
+       Download CV <i class="fas fa-download"></i>
+    </a>
+
+    <a href="https://wa.me/6285885595847" 
+       class="btn btn-secondary" 
+       target="_blank">
+       Contact Me <i class="fas fa-envelope"></i>
+    </a>
+</div>
+    </div>
+</section>
+
+<!-- PROFILE -->
+<section id="profile" class="section bg-light">
+    <div class="container profile-flex">
+
+        <div class="profile-left">
+            <img src="img/abotme.png">
+        </div>
+
+        <div class="profile-right">
+            <h2>About Me</h2>
+            <hr>
+            <p>
+                Saya seorang Network Operation Center yang memiliki spesialisasi dalam infrastruktur jaringan TI.
+                Saya memiliki pemahaman mendalam mengenai perancangan, perencanaan, dan pemeliharaan jaringan yang
+                stabil serta aman. Saya terbiasa bekerja dengan berbagai perangkat jaringan dan senantiasa antusias 
+                mengikuti perkembangan teknologi infrastruktur terkini.
+
+            </p>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/mhmmdnurikhsan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:mhmmdikhsan3101@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/6285885595847"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+    <div class="container">
+        <h2 class="section-title">Pengalaman</h2>
+        <p class="section-subtitle"></p>
+
+        <div class="experience-wrapper">
+
+            <!-- Experience -->
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company-info">
+                        <div class="company-logo">
+                           <img src="img/nutri.webp" alt="PT Maxindo Mitra Solusi">
+                        </div>
+                        <div>
+                            <h3>PT Nutrifood</h3>
+                            <p><i class="fas fa-map-marker-alt"></i>  Jawa Barat, Indonesia • WFO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-body">
+                    <div class="job-title">
+                        <h4>IT Support</h4>
+                        <span class="duration">Januari 2024 - Juni 2024</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Melakukan instalasi dan konfigurasi sistem CCTV di berbagai lokasi perusahaan. </li>
+                        <li>Menangani dan menyelesaikan pemecahan masalah jaringan dan perangkat keras secara tepat waktu.</li>
+                        <li>Melaksanakan audit dan pendataan perangkat keras secara menyeluruh dan akurat.</li>
+                        <li>Menjalankan pemeliharaan rutin terhadap jaringan, printer, CCTV, dan komputer di seluruh area gedung.</li>
+                        <li>Melakukan instalasi jaringan seperti pemasangan kabel untuk CCTV, LAN, dan access point.</li>
+                        <li>Memberikan dukungan teknis kepada pengguna secara efisien, membantu menyelesaikan kendala jaringan.</li>
+                    </ul>
+                    <div class="technologies">
+                        <span class="tech-tag">CCTV</span>
+                        <span class="tech-tag">LAN</span>
+                        <span class="tech-tag">Access Point</span>
+                        <span class="tech-tag">Tunning Frequency</span>
+                        <span class="tech-tag">Ubiquitty</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company-info">
+                        <div class="company-logo">
+                           <img src="img/maxindo.png" alt="PT Maxindo Mitra Solusi">
+                        </div>
+                        <div>
+                            <h3>PT Maxindo Mitra Solusi</h3>
+                            <p><i class="fas fa-map-marker-alt"></i>  Jakarta Barat, Indonesia • WFO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-body">
+                    <div class="job-title">
+                        <h4>Network Operation Center</h4>
+                        <span class="duration">Agustus 2025 - Sekarang</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Troubleshooting jaringan pada Router serta switch, access point, VPN, dan konektivitas internet pada sisi client maupun internal.</li>
+                        <li>Pengecekan konfigurasi serta konektivitas jaringan pada perangkat MikroTik.</li>
+                        <li>Konfigurasi pada router (Routing, Swithcing, Firewall dan VPN) hingga mendapatkan koneksi sampai dilakukan pengetesan.</li>
+                        <li>Melakukan dokumentasi konfigurasi, topologi jaringan, serta reporting hasil troubleshooting dan maintenance.</li>
+                        <li>Quality of Service (QoS): Implementing traffic management.</li>
+                        <li>Monitoring konektivitas client by real time.</li>
+                        <li>Mengidentifikasi dan merespons gangguan jaringan seperti link down melalui sistem monitoring.</li>
+                        <li>Berkoordinasi dengan tim teknis internal serta team terkait dalam penanganan gangguan jaringan.</li>
+                        <li> Membuat dan mengelola ticket incident pada sistem ticketing serta mendokumentasikan proses troubleshooting dan penyelesaian gangguan sesuai dengan SLA.</li>
+                    </ul>
+                    <div class="technologies">
+                        <span class="tech-tag">Network Administration</span>
+                        <span class="tech-tag">Wireless Radio point-to-point</span>
+                        <span class="tech-tag">Coordination</span>
+                        <span class="tech-tag">Ubiquitty</span>
+                        <span class="tech-tag">MikroTik</span>
+                        <span class="tech-tag">Router Configuration</span>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 4 -->
+
+        </div>
+    </div>
+</section>
+
+<!-- PROJECT -->
+<section id="seminar" class="section">
+    <div class="container">
+        <h2 class="section-title">Seminar</h2>
+        <p class="section-subtitle">Some of the certificates I have obtained</p>
+        <div class="certificates">
+            <div class="certificate">
+                <img src="img/basic-net.jpg" alt="Basic-Network">
+                <div class="certificate-info">
+                    <h3>Sharingknowledge Basic Network</h3>
+                    <div class="institution-year">
+                        <span class="institution">🏛️Maxindo Mitra Solusi</span>
+                        <span class="year">📅2025</span>
+                    </div>
+                    <p class="description">Sesi Sharingknowledge bersama tim mengenai implementasi dasar hingga lanjutan di bidang networking.</p>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="img/komunikasi.jfif" alt="Komunikasi">
+                <div class="certificate-info">
+                    <h3>Sharingknowledge Teknis Komunikasi</h3>
+                    <div class="institution-year">
+                        <span class="institution">🏛️Maxindo Mitra Solusi</span>
+                        <span class="year">📅2025</span>
+                    </div>
+                    <p class="description">Komunikasi bukan tentang seberapa banyak informasi yang kita berikan, tapi seberapa efektif informasi tersebut dapat diterima dan di pahami oleh lawan bicara.</p>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="img/tshot.jfif" alt="troubleshooting">
+                <div class="certificate-info">
+                    <h3>Sharingknowledge Troubleshooting</h3>
+                    <div class="institution-year">
+                        <span class="institution">🏛️PT Dimensi Kreasi Nusantara</span>
+                        <span class="year">2024</span>
+                    </div>
+                    <p class="description">Skilled in designing and implementing network security using FortiGate Firewalls. This includes configuring firewall policies, NAT, VPN, and protecting against network threats to maintain system security and integrity.</p>
+                </div>
+            </div>
+    </div>
+</section>
+
+<!-- CERTIFICATE -->
+<section id="certificate" class="section">
+    <div class="container">
+        <h2 class="section-title">Certificates</h2>
+        <p class="section-subtitle">Some of the certificates I have obtained</p>
+        <div class="certificates">
+            <!-- Sertifikat-->
+            <div class="certificate">
+                <img src="img/MTCNA.jpeg" alt="MikroTik Certified Network Associate">
+                <div class="certificate-info">
+                    <h3>MikroTik Certified Network Associate</h3>
+                    <div class="institution-year">
+                        <span class="institution">🏛️MikroTik</span>
+                        <span class="year">📅2025</span>
+                    </div>
+                    <p class="description">Certified in the use of MikroTik devices, with capabilities in routing, bridging, wireless, firewall, NAT, and bandwidth management configurations. Capable of implementing small to medium-scale networks efficiently and stably using RouterOS.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+<!-- Google Translate -->
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'id'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>
